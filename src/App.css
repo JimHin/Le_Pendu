@@ -1,0 +1,51 @@
+.game{
+  display: flex;
+  padding:1%;
+}
+
+.hangman {
+  text-align: left;
+  margin-left: 5%;
+  
+}
+
+.content{
+  margin-top: -15%;
+  display: flex;
+  flex-wrap: wrap-reverse;
+  justify-content: space-around;
+}
+
+.header {
+  display: flex;
+  margin-top: 1%;
+}
+
+.logo{
+  width: 250px;
+}
+
+.hiddenword{
+  margin-top: 15%;
+  width: 100%;
+  display: flex;
+  justify-content: space-around;
+}
+
+
+@media all and (max-device-width: 480px) {
+ 
+
+  .header {
+    flex-direction: column;
+    height: 15%;
+  }
+  .content{
+    
+    display: flex;
+    flex-wrap: wrap-reverse;
+    
+  }
+
+  
+}
